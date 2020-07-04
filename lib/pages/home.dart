@@ -17,7 +17,7 @@ import 'package:social_app/pages/search.dart';
 //splash screen with title + user sign-in btn.
 //using state, will show authenticates screen for athenticated users and unauthenticated screen for ...
 
-//allows us to use number of methodds where user can login etc
+//allows us to use number of methods where user can login etc
 final GoogleSignIn googleSignIn = GoogleSignIn();
 final usersRef = Firestore.instance.collection('users');
 final DateTime timestamp = DateTime.now();
